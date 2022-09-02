@@ -1,5 +1,38 @@
 # PixInsight processing
 
+In order to ease my workflow, i use a specific directory layout at each start :
+
+```
+2022-09 - IC1848 - Heart and soul nebulae
+ ┣ Bias
+ ┣ Dark
+ ┣ Flat
+ ┃ ┣ Ha
+ ┃ ┣ Oiii
+ ┃ ┗ Sii
+ ┣ Light
+ ┃ ┣ Ha
+ ┃ ┣ Oiii
+ ┃ ┗ Sii
+ ┗ Light - orig
+ ┃ ┣ Ha
+ ┃ ┣ Oiii
+ ┃ ┗ Sii
+ ```
+
+Directory structure is self explainatory. The only thing i am doing is to use a `Light - orig` folder containg all raws images in order to keep a copy of everything.
+`Light` directory is, at the beginning of the process, empty and will be filled in the next section during `image selection`
+
+## Image selection - Blink
+
+> Can be found under `PROCESS -> XXX -> Blink`
+
+The first step of processing is choosing the right frames to incclude for registration and stacking.
+To do i use the `blink` process which permits me to select my subframes.
+I go through all my `Light - orig` directories with the blink tool to move them in the `Light` directory in the corect folder.
+
+I am doing it this band per band to ease the review.
+
 ## Image integration
 
 - Enable drizzle data on light frames
