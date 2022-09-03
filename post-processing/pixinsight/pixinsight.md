@@ -27,13 +27,19 @@ Directory structure is self explainatory. The only thing i am doing is to use a 
 
 > Can be found under `PROCESS -> XXX -> Blink`
 
-The first step of processing is choosing the right frames to incclude for registration and stacking.
+The first step of processing is choosing the right frames to include for registration and stacking.
 To do i use the `blink` process which permits me to select my subframes.
-I go through all my `Light - orig` directories with the blink tool to move them in the `Light` directory in the corect folder.
+I go through all my `Light - orig` directories with the blink tool to move them in the `Light` directory in the correct folder.
 
 I am doing it this band per band to ease the review.
 
-## Image integration
+## Cosmetic correction process creation
+
+The goal here is to create a process which will be used during WBPP after
+
+## Image integration - Weighted Batch preprocessing
+
+> Can be found under `Script -> XXXX -> WeightedBatchPreprocessing`
 
 - Enable drizzle data on light frames
 
