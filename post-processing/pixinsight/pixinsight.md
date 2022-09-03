@@ -1,5 +1,10 @@
 # PixInsight processing
 
+I do all my post processing in Pixinsight.
+I find it rather easy to have only one tool to do all the stuuf. So I invested some time trying to learning it.
+
+This page won't explain all decision choicies. This page aims as a remainder for me ;)
+
 In order to ease my workflow, i use a specific directory layout at each start :
 
 ```
