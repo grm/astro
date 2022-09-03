@@ -1,3 +1,5 @@
+title: Astro Grm
+description: A simple site to store all my astro informmation !
 plugins:
   - jekyll-relative-links
   - jekyll-remote-theme
