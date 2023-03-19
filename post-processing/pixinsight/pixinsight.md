@@ -40,7 +40,11 @@ I am doing it this band per band to ease the review.
 
 ## Cosmetic correction process creation
 
-The goal here is to create a process which will be used during WBPP after
+Can be found under `PROCESS -> ImageCalibration -> CosmeticCorrection`
+
+The goal here is to create a process which will be used during WBPP. You can configure a process as show in the screen shot and the create an instance on the desktop. Do not launch it, it will be used during image integration.
+
+ ![CosmeticCorrection](img/cosmetic_correction.png)
 
 ## Image integration - Weighted Batch preprocessing
 
@@ -63,3 +67,17 @@ To configure the process, you have to configure accordingly the process by adddi
  To launch the process click on the round button to apply the process.
 
  Ho, and get grab a coffee ;) 
+
+## Crop 
+
+> Can be found under `PROCESS -> Geometry -> Crop`
+
+ It's time to crop to keep only the nice/interesting area !
+
+## Background Extraction
+
+## Deconvolution
+
+## Denoise
+
+Use EZ-denoised
